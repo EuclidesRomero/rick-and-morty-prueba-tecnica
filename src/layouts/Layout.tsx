@@ -4,16 +4,16 @@ import { Outlet } from "react-router-dom"
 
 
 const Layout = () => {
-    return (
-      <>
-        <Header />
-        <main className="w-full h-full flex">
-          <Outlet />
-        </main>
-        <Footer />
-      </>
-    );
-  };
+  return (
+    <>
+      <Header />
+      <main className="w-full min-h-screen flex flex-co">
+        <Outlet  />
+      </main>
+      <Footer />
+    </>
+  );
+};
   
   
 export default Layout

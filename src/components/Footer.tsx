@@ -1,8 +1,8 @@
 
 const Footer = () => {
   return (
-    <div>
-      <p>footer here</p>
+    <div className="mt-2">
+      <p>Make with ❤️ for the MobProgramming team</p>
     </div>
   )
 }
